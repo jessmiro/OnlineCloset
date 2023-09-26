@@ -1,10 +1,10 @@
-const express = require('express')
+/*const express = require('express')
 const app = express()
 app.get('/', (req, res)=>res.json({message: 'Hello World'})) 
-app.listen(process.env.PORT || 80)
+app.listen(process.env.PORT || 80) */
 // Import essential libraries 
 
-/*const express = require('express'); 
+const express = require('express'); 
 const app = express(); 
 const path = require('path'); 
 const router = express.Router(); 
@@ -22,4 +22,4 @@ router.get('/sitemap', function(req, res) {
 //add the router 
 app.use('/', router); 
 app.listen(process.env.port || 3000); 
-console.log('Running at Port 3000');*/
+console.log('Running at Port 3000');
