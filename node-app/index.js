@@ -20,6 +20,6 @@ router.get('/view-outfits', function(req, res) {
      res.sendFile(path.join(__dirname + '/view-outfits.html')); 
 }); 
 //add the router 
-app.use('/', router); 
-app.listen(process.env.port || 80); 
-console.log('Running at Port 80');
+//app.use('/', router); 
+app.listen(process.env.port || 3000); 
+console.log('Running at Port 3000');
